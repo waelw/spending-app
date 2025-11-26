@@ -1,7 +1,4 @@
 export default function Header() {
-  return (
-    <header className="p-4 flex items-center bg-gray-800 text-white shadow-lg">
-      header
-    </header>
-  )
+  // Minimal header - main content has its own header
+  return null
 }

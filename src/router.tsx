@@ -8,7 +8,6 @@ import { routeTree } from './routeTree.gen'
 // Create a new router instance
 export const getRouter = () => {
   const rqContext = TanstackQuery.getContext()
-  console.log({ routeTree })
   const router = createRouter({
     routeTree,
     context: { ...rqContext },
